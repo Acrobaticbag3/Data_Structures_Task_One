@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\bin\Debug\net6.0\Data_Structures_Task_One.exe
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\bin\Debug\net6.0\Data_Structures_Task_One.deps.json
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\bin\Debug\net6.0\Data_Structures_Task_One.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\bin\Debug\net6.0\Data_Structures_Task_One.dll
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\bin\Debug\net6.0\Data_Structures_Task_One.pdb
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.dll
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\refint\Data_Structures_Task_One.dll
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.pdb
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\Data_Structures_Task_One.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\Data_Structures_Task_One\obj\Debug\net6.0\ref\Data_Structures_Task_One.dll
