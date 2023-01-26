@@ -8,36 +8,43 @@ namespace Data_Structures_Task_One {
 
         public static void Main(string[] args) {
             string input = "[()]{}{[()()]()}";
-            Stack<char> stack = new Stack<char>();
-
+            Stack<char> charStack = new Stack<char>();
+            
             foreach (char c in input) {
-                if (input == "[" || input == "(" || input == "{") {
-                    stack.Push(c);   
+                if (c == '[' || c == '('|| c == '{') {
+                    charStack.Push(c);
                 } else {
-                    
-                    if(stack.Count == 0){
-                        Console.WriteLine("Input is unbalanced");
+
+                    if(charStack.Count == 0){                        // Safe fail incase input is unbalanced
+                        Console.WriteLine("input is unbalanced");
                         return;
                     }
-                    char popedChar = stack.Pop();
-                }
 
-                bool check = false;
-                if (c == ')') {
-                    check = true;  
-                } else if (c == '}') {
-                    check = true;
-                } else if (c == ']') {
-                    check = true;
-                } else {
-                    check = false;
-                }
+                    bool check = false;
+                    char sc = charStack.Pop();
+                    // sc = '(' c = '}'
+                    if (sc == '(' && c == ')') {                // check if brackets match
+                        check = true;  
+                    } else if (sc == '{' && c == '}') {         // check if curly brackets match
+                        check = true;
+                    } else if (sc == '[' && c == ']') {         // check if whatrver this is [] is matched
+                        check = true;
+                    } else {
+                        check = false;
+                    }
 
-                if(stack.Count == 0) {
-                    Console.WriteLine("Input is balanced");
-                } else {
-                    Console.WriteLine("Input is not balanced");
+                    if(!check) {                                      // If check remains false the imput is "Wrong" aka not balanced      
+                        Console.WriteLine("Input is not balanced");
+                        return;
+                    }
+
                 }
+            }
+
+            if(charStack.Count() == 0) {                        // If no elements remain the stack is balanced
+                Console.WriteLine("Input is balanced");
+            } else {                                            // If any elements remain the stack is unbalanced
+                Console.WriteLine("Input is not balanced");
             }
         }
     }
